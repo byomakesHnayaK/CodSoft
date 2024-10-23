@@ -1,0 +1,97 @@
+/* General page settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header section styling */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.header .title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header .Description {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #e0e0e0;
+}
+
+/* Tribute section styling */
+.tribute {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tribute blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #efefef;
+    border-left: 8px solid #333;
+    color: #555;
+}
+
+.tribute img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Biography section styling */
+.bio {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bio p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.bio hr {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header .title {
+        font-size: 2.5em;
+    }
+
+    .bio {
+        padding: 10px;
+    }
+}
